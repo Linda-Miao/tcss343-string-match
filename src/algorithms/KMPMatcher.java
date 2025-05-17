@@ -7,13 +7,10 @@ import java.io.IOException;
 import src.StringMatcher;
 import java.util.ArrayList;
 
-/**
- * Implements the Knuth-Morris-Pratt (KMP) string matching algorithm
- *
- * References:
- * - Original paper: Knuth, D. E., Morris, J. H., & Pratt, V. R. (1977). Fast pattern matching in strings. SIAM Journal on Computing, 6(2), 323-350.
- *   https://doi.org/10.1137/0206024
- * - Algorithm explanation: https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/
+**
+ * Implements the naive string matching algorithm
+ * @author Linda Miao
+ * @version 1.0
  */
 public class KMPMatcher implements StringMatcher {
     private long comparisons;
