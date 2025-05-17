@@ -1,0 +1,10 @@
+This is a small test file for string matching algorithms.
+We will search for patterns in this text.
+The naive algorithm should find all occurrences of patterns.
+Patterns can appear multiple times in the text.
+Let's try some repeating patterns like "algorithm algorithm algorithm".
+Some patterns overlap, like in "abababa" the pattern "aba" appears multiple times.
+The KMP algorithm uses preprocessed information to avoid redundant comparisons.
+Boyer-Moore uses smart skipping techniques to improve efficiency.
+Rabin-Karp utilizes hashing to quickly identify potential matches.
+Each algorithm has different strengths depending on the text and pattern characteristics.
