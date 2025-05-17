@@ -1,20 +1,6 @@
-//https://www.geeksforgeeks.org/naive-algorithm-for-pattern-searching/
-//https://doi.org/10.1137/0206024
-// https://opendsa-server.cs.vt.edu/ODSA/Books/Everything/html/StringMatching.html
-//https://rosettacode.org/wiki/String_matching
-//* References:
-//        * 1. Naive Algorithm: https://www.geeksforgeeks.org/naive-algorithm-for-pattern-searching/
-//        * 2. KMP Algorithm: https://www.geeksforgeeks.org/kmp-algorithm-for-pattern-searching/
-//        * 3. Boyer-Moore Algorithm: https://www.geeksforgeeks.org/boyer-moore-algorithm-for-pattern-searching/
-//        * 4. Rabin-Karp Algorithm: https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/
-//        *
-//        * Academic Papers:
-//        * 5. Original KMP Paper: https://doi.org/10.1137/0206024
-//        * 6. Boyer-Moore Paper: https://doi.org/10.1145/359842.359859
-
+/*343 project program */
 
 package src.tests;
-
 import src.StringMatcher;
 import src.algorithms.NaiveMatcher;
 import src.algorithms.KMPMatcher;
@@ -24,12 +10,13 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-
-
-
 /**
- * Class for testing and comparing string matching algorithms
+ * This file is designed to test all algorithms implemented in the project.
+ * It ensures the correctness and performance of each algorithm.
+ * @author Linda Miao
+ * @version 1.0
  */
+
 public class TextLoaderTest {
 
     // Method to load text from a file into a string

@@ -1,15 +1,13 @@
-package src.algorithms;
+/* 343 Project Program */
 
+package src.algorithms;
 import src.StringMatcher;
 import java.util.ArrayList;
 
 /**
- * Implements the Rabin-Karp string matching algorithm using rolling hash
- *
- * References:
- * - Original paper: Karp, R. M., & Rabin, M. O. (1987). Efficient randomized pattern-matching algorithms.
- *   IBM Journal of Research and Development, 31(2), 249-260.
- * - Algorithm explanation: https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/
+ * Implements the Boyer-Moore string matching algorithm
+ * @author Linda Miao
+ * @version 1.0
  */
 public class RabinKarpMatcher implements StringMatcher {
     private long comparisons;

@@ -1,5 +1,5 @@
 package src;
-import src.StringMatcher;
+
 /**
  * Interface that all string matching algorithms will implement
  */

@@ -1,8 +1,14 @@
-//it is expanding the medium text size that is enough to text result.
+/*343 project program */
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+
+/**
+ * it is expanding the medium text size that is enough to text result.
+ * @author Linda Miao
+ * @version 1.0
+ */
 
 public class ExpandMediumText {
     public static void main(String[] args) {

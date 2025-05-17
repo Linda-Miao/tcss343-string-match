@@ -1,15 +1,13 @@
-package src.algorithms;
+/* 343 Project Program */
 
+package src.algorithms;
 import src.StringMatcher;
 import java.util.ArrayList;
 
 /**
  * Implements the Boyer-Moore string matching algorithm
- *
- * References:
- * - Original paper: Boyer, R. S., & Moore, J. S. (1977). A fast string searching algorithm. Communications of the ACM, 20(10), 762-772.
- *   https://doi.org/10.1145/359842.359859
- * - Algorithm explanation: https://www.geeksforgeeks.org/boyer-moore-algorithm-for-pattern-searching/
+ * @author Linda Miao
+ * @version 1.0
  */
 public class BoyerMooreMatcher implements StringMatcher {
     private long comparisons;
