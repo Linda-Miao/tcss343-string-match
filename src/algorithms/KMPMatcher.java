@@ -7,7 +7,7 @@ import java.io.IOException;
 import src.StringMatcher;
 import java.util.ArrayList;
 
-**
+/**
  * Implements the naive string matching algorithm
  * @author Linda Miao
  * @version 1.0
