@@ -1,15 +1,11 @@
 //package src;
 package src.algorithms;
-import src.algorithms.NaiveMatcher;
-import src.algorithms.KMPMatcher;  // Uncomment this line
-import java.io.IOException;
-
 import src.StringMatcher;
 import java.util.ArrayList;
 
 /**
  * Implements the naive string matching algorithm
- * @author Linda Miao
+ * @author Linda Miao.
  * @version 1.0
  */
 public class KMPMatcher implements StringMatcher {
